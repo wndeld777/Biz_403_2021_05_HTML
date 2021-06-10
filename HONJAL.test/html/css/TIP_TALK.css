@@ -1,0 +1,36 @@
+h2#life {
+  font-size: 25px;
+}
+div#select {
+  display: flex;
+  margin-left: 70%;
+}
+p#p1 {
+  display: flex;
+}
+input {
+  padding: 10px;
+}
+button#search {
+  padding: 10px;
+  margin: 0;
+}
+button#search:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 2px #bbb;
+}
+button#writer {
+  position: relative;
+  width: auto;
+  margin-top: 20px;
+  margin-left: 90%;
+  padding: 10px;
+  cursor: pointer;
+}
+button#writer:hover {
+  box-shadow: 2px 2px 2px #bbb;
+}
+tbody > tr:hover {
+  cursor: pointer;
+  background-color: #f3eef0;
+}
