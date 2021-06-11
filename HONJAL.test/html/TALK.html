@@ -33,12 +33,6 @@
     <article id="main_bottom">
       <h2 id="life">혼잘TALK</h2>
       <div id="select">
-        <select>
-          <option selected>말머리</option>
-          <option>정보TALK</option>
-          <option>자유TALK</option>
-        </select>
-
         <p id="p1">
           <input type="text" placeholder="검색어를 입력하세요" />
           <button id="search">검색</button>
@@ -47,8 +41,14 @@
       <table class="board">
         <tr>
           <th width="15%">No.</th>
-          <th width="10%">게시판</th>
-
+          <th id="select" width="10%">
+            말머리
+            <select>
+              <option selected></option>
+              <option>정보TALK</option>
+              <option>혼잘TALK</option>
+            </select>
+          </th>
           <th width="40%">글제목</th>
           <th width="15%">작성자</th>
           <th width="10%">작성일</th>

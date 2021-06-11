@@ -1,19 +1,20 @@
 h2#life {
   font-size: 25px;
 }
-div#select {
-  display: flex;
-  margin-left: 70%;
+select {
+  padding: 2px 8px;
+  width: 1px;
 }
 p#p1 {
   display: flex;
+  margin-left: 79%;
 }
 input {
   padding: 10px;
 }
 button#search {
   padding: 10px;
-  margin: 0;
+  margin-right: 0;
 }
 button#search:hover {
   cursor: pointer;
