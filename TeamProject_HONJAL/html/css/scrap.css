@@ -10,10 +10,26 @@
     url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf")
       format("truetype");
 }
+/* seletbox optgroup -------------------------------------------------*/
+option#opt {
+  font-weight: bold;
+}
+/* -------------------------------------------------------------------*/
+.title {
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: "NanumBarunGothic";
+  margin-left: 5%;
+}
+select {
+  padding: 0px 7px;
+  width: 1px;
+}
 p#p1 {
   display: flex;
-  margin-bottom: 30px;
+
   justify-content: flex-end;
+  margin-bottom: 30px;
 }
 input {
   margin-right: 10px;
@@ -26,13 +42,6 @@ input:focus {
   border-radius: 15px;
   border: 1px solid gray;
 }
-.title {
-  margin-top: 20px;
-  font-size: 25px;
-  font-family: "NanumBarunGothic";
-  margin-left: 5%;
-}
-
 button#search {
   padding: 10px;
   margin-right: 0;
@@ -50,20 +59,16 @@ button#writer {
   width: 100px;
   margin-left: 200px;
   border-radius: 15px;
-  outline: 0;
   border: 2px solid #b3d83c;
   background-color: white;
 }
 
-.board tr td:nth-of-type(2) {
+.board tr td:nth-of-type(4) {
   text-align: left;
   cursor: pointer;
 }
 tr:hover {
   background-color: #faf5ef;
-}
-td#align {
-  text-align: left;
 }
 
 /* ------------------------------------------------------------------------- */
@@ -84,7 +89,7 @@ td#align {
 
 .board tr th {
   border-top: 2px solid gray;
-  padding: 11.5px;
+  padding: 10px;
   font-weight: bold;
   background-color: #f5f3f3;
   border-bottom: 1px solid lightgray;
@@ -112,7 +117,6 @@ footer {
 .board span {
   color: red;
 }
-
 /* paging --------------------------------------------------------------------*/
 .paging {
   display: flex;
@@ -137,4 +141,17 @@ footer {
 
 .paging a:hover:not(.on) {
   background-color: #f2fad8;
+}
+
+/* scrap 삭제 버튼 ------------------------------------------------------------------------------ */
+button#delete {
+  height: 40px;
+  cursor: pointer;
+  width: 100px;
+  margin-left: -400px;
+  margin-right: 300px;
+  border-radius: 15px;
+  justify-content: flex-start;
+  border: 2px solid #b3d83c;
+  background-color: white;
 }
